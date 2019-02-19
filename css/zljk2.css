@@ -1,0 +1,85 @@
+.box {
+	width: 1000px;
+    margin: 0 auto;
+}
+.center{
+	width: 1000px;
+	margin: 0px;	
+	padding: 0px;
+}
+.hall{
+	width: 1000px;
+	margin: 0px;	
+	padding: 0px;
+}
+.top{
+    margin:45px auto;
+	text-align: center;     
+}
+.top h3{
+	font-size: 20px;
+	color:#000000; 
+	line-height: 40px;
+    font-weight:bold;
+
+}
+.footer{
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+
+}
+.content{
+	width: 1000px;
+}
+  p{
+	font-size: 15px;
+	line-height: 30px;
+    font-family: "黑体";
+    text-indent: 2em;
+}
+.footer img.one{
+	width: 1000px;
+	height: 480px;
+	margin: 30px 0 30px 0;
+}
+.picture{
+	width: 1000px;
+	margin-bottom: 25px;
+}
+
+.picture li {
+	float:left;
+	margin: 0 16px;
+}
+
+.picture img {
+	width: 300px;
+	height: 185px;
+}
+.control {
+	width: 1000px;
+	margin: 0px;
+	padding: 0px; 
+}
+.mp4{
+	width: 1000px;
+	margin: 0px;
+	padding: 0px; 
+
+} 
+.mp4 li {
+	float: left;
+    width: 300px;
+    margin: 0 16px;
+    text-align: center;
+}
+.mp4 li a img{
+	width: 300px;
+	height: 185px;
+}
+.mp4 li span {
+	font-size: 25px;
+	line-height: 80px;
+	color:rgba(0,0,0);
+}

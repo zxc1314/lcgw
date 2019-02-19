@@ -1,0 +1,59 @@
+.box {
+	width: 1000px;
+    margin: 0 auto;
+}
+.center{
+	margin-bottom: 80px;	
+}
+.center  li {
+	margin-top: 30px;
+}
+.top{
+	height:70px;
+	text-align: center;
+	margin:0px;
+	padding: 0px;
+}
+.center li span.a{
+	font-size: 18px;
+	color:#2a6ec2; 
+	line-height: 40px;
+    font-weight:bold;
+}
+.center li span.b{
+	font-size: 14px;
+	color:#89a7d7; 
+}
+.introduction{
+	width: 1000px;
+    background: url(../images/防伪溯源平台图标.png) no-repeat 0px center;
+    padding-top: 20px;
+    margin-top:20px;   
+}
+.content{
+	overflow: hidden; 
+}
+.content p{
+	font-size: 15px; 
+	line-height: 24px;
+	font-family: "黑体";
+	text-indent: 2em;
+	margin: 10px 2px 0px 10px;
+}
+.introduction img.one{
+	width: 840px;
+	height: 230px;
+    margin:30px 80px;
+}
+.introduction img.two{
+	width: 270px;
+	height: 280px;
+	margin: 40px 375px;
+}
+
+.introduction img.three{
+	width: 270px;
+	height: 280px;
+	margin:30px 375px;
+}
+

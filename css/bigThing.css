@@ -1,0 +1,54 @@
+.box{
+	width:1000px;
+	margin: 10px auto;
+	margin-bottom: 50px;
+}
+.big_thing{
+    position: relative;
+    background: url(../images/bigthing1.png) no-repeat;
+    background-size: 100% 100%;
+    width: 95%;
+    height: 610px; 
+    margin: 0 auto;
+}
+.book_box{
+    margin: 20px auto;
+    height: 510px;
+    /* padding: 40px; */
+    padding-top: 23px;
+}
+.book_box img{
+	width: 95%;
+    height: 200px;
+    margin-top: 20px;
+}
+.mybook_title {
+    padding-top: 20px;
+}
+.mybook_title p {
+    color: #000;
+    line-height: 30px;
+    margin-top: 15px;
+    font-size: 19px;
+}
+.mybook_title p span:first-child {
+    margin-left: 1em;
+}
+.mybook_content {
+    overflow: hidden;
+    height: 500px;
+}
+.mybook_content h3 {
+    color: #000;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 35px;
+    text-align: center;
+}
+.mybook_content p {
+    color: #000;
+    text-indent: 2em;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 16px;  
+}

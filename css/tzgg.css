@@ -1,0 +1,60 @@
+.box {
+    width: 1000px;
+    margin: 0 auto;
+}
+.news{
+    width: 100%;
+    margin: 0 auto;
+}
+.news li{
+    float: left;
+    width: 99%;
+    background: url(../images/通知公告.png) no-repeat 8px center;
+    background-size: 15px 22px;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.news a{
+    color:#000;
+}
+.news span{
+    display: inline-block;
+    margin-left:35px;
+    margin-top:2px;
+    font-size: 15px;
+    line-height: 53px;
+    font-family:"黑体";
+}
+.news span.b{
+    float: right;
+    color: #999999;
+    margin-right: 4px;
+}
+
+.yema{
+    color:#999999;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.yema ul.pagination {
+    display: inline-block;
+}
+
+.yema ul.pagination li {
+    float: left;
+}
+
+.yema ul.pagination li a {
+    color:#999999;
+    margin-left: 3px;
+}
+.yema ul.pagination span {
+    margin-right: 2px;
+    color:#999999;
+}
+
+.yema ul.pagination  a:hover {
+    color: red;
+}
+

@@ -1,0 +1,22 @@
+body{
+	background-color: #daeae0;
+}
+.dl{
+	width: 1000px;
+	margin:0 auto; 
+	background-color:#daeae0;
+
+}
+.detail_center{
+	background-color: #ffffff;
+	padding: 30px 0 50px;
+	margin: 0 0 30px;
+}
+.center{
+	overflow: hidden;
+}
+
+.center p{
+	font-size: 19px;
+	line-height: 30px;
+}

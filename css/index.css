@@ -1,0 +1,335 @@
+.index_top {
+	margin-top: 70px;
+}
+.index_top_title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.index_top_title img {
+	width: 500px;
+	height: 92px;
+}
+.index_top_content {
+	width: 1100px;
+	margin: 0 auto;
+}
+.content_left {
+	text-align: center;
+	width: 29%;
+	margin-left: 4%;
+}
+.content_left .content_img img {
+	width: 100%;
+    height: 215px;
+	border-radius: 20px;
+}
+.content_content {
+	margin-top: 7px;
+	padding: 5px 10px;
+	background-color: #E9FCFC;
+	border: 1px solid #BDE7F8;
+	border-radius: 5px;
+	height: 167px;
+    overflow: hidden;
+}
+.content_content2 {
+	background-color: #EAE0FB;
+}
+.content_content3 {
+	background-color: #FCFCE9;
+}
+.content_content p {
+	color: #000;
+	padding: 2px 5px;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 15px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content_content .blueSpot {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #60A7CD;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+.content_left .manage ul {
+	width: 98%;
+	padding-top: 7px;
+}
+.content_left .manage ul li a {
+	color: #fff;
+    background-color: #155A9E;
+    width: 100%;
+    display: block;
+    height: 87px;
+    margin-bottom: 15px;
+    line-height: 87px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: "STKaiti";
+    font-weight: bold;
+}
+.content_img {
+	position: relative;
+	overflow: hidden;
+}
+.content_img1 {
+	background-image: url(../images/tu1.png);
+	background-repeat: no-repeat;
+}
+.content_show {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.content_img .content_show img {
+	width: 150px;
+    height: auto;
+}
+.content_none {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 98%;
+    height: 97%;
+    background-color: rgba(0,0,0,.4);
+    border-radius: 15px;
+    display: none;
+}
+
+/* .content_img:hover .content_none{
+	display: block;
+}
+.content_img:hover .content_show{
+	display: none;
+} */
+.content_none h3 {
+	text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+}
+.content_none p {
+	text-align: center;
+}
+.content_none p a {
+	color: #fff;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: "STSong";
+}
+.content_img .content_none h3 img {
+    width: 140px;
+    height: auto;
+}
+/*特色扶贫*/
+.poorBan {
+	width: 100%;
+	height: 390px;
+	background-image: url(../images/sy_tsfp_bg.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+.swiper-container {
+      width: 750px;
+      height: 300px;
+      top: 44px;
+      margin-left: auto;
+      margin-right: auto;
+}
+.swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.nextBtn {
+	right: 130px!important;
+	background-image: url(../images/sy_right.png)!important;
+	background-size: 44px 80px!important;
+	width: 44px!important;
+	height: 80px!important;
+}
+.prevBtn {
+	left: 130px!important;
+	background-image: url(../images/sy_left.png)!important;
+	background-size: 44px 80px!important;
+	width: 44px!important;
+	height: 80px!important;
+}
+.swiper-container .poorImg img {
+	width: 100%;
+	height: 300px;
+}
+/*栾川印象*/
+/*.impressiveContent {
+	text-align: center;
+}*/
+.impressiveContent li {
+	width: 260px;
+	float: left;
+	margin-left: 110px;
+	border: 1px solid #B8E7F9;
+}
+.impressiveContent li p:last-child {
+	font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+    padding: 7px 10px;
+
+}
+/*新闻公告*/
+.newsContent {
+	width: 1100px;
+	margin: 0 auto 40px;
+}
+.newsContent .news_left {
+	width: 480px;
+    height: 370px;
+    margin-left: 46px; 
+    border: 2px solid #CCE0F9;
+}
+.products .main-gn p {
+	text-align: right;
+	color: #000;
+    padding-right: 27px;
+    font-size: 15px;
+}
+.products .main-gn p a {
+	color: #000;
+}
+.newsContent .news_left_b {
+	border: 2px solid #CCE0F9;
+}
+.swiper-container3 {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    width: 480px;
+    height: 370px;
+    
+}
+.swiper-container3 .swiper-slide img {
+	width: 100%;
+	height: 100%;
+}
+ 
+.swiper-container3 .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color:#000;
+  opacity: 1;
+  background: rgba(0,0,0,0.2);
+}
+.swiper-container3 .swiper-pagination-bullet-active {
+  color:#fff;
+  background: #007aff;
+}
+.swiper-container3 .swiper-pagination-bullet {
+width: 18px;
+height: 18px;
+}
+.swiper-container3 .swiper-pagination {
+	text-align: right;
+}
+
+.tab-g {
+	border-bottom:0;
+	height:36px;
+	background-color: #B2B8ED;
+	background-image: url(../images/sy_xw_2.png);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	padding-left: 65px;
+	padding-top: 1px;
+}
+.tab-g li {
+    float: left;
+    height: 34px;
+    margin-left: 25px;
+    color: #000;
+    line-height: 37px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+}
+.tab-g li.active-gn {
+	color:#155A9E;
+}
+.bottom .products .main-gn {
+	display:none;
+}
+.bottom .products .selected-gn {
+	display:block;
+}
+.bottom .products .main-gn ul {
+	width: 100%;
+	height: 310px;
+    overflow: hidden;
+}
+.bottom .products .main-gn li {
+	background: url(../images/sy_zczc.png) no-repeat 20px center;
+	background-size: 15px 28px;
+	height: 50px;
+	line-height: 54px;
+	padding-left: 50px;
+	border-bottom: 1px dashed #999;
+	width: 78%;
+	margin: 0 auto;
+	font-size: 15px;
+}
+.bottom .products .main-gn li a {
+	color: #000;
+	
+}
+.bottom .products .main-gn li a span:first-child {
+	display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70%;
+}
+.bottom .products .main-gn li a span:last-child {
+    position: relative;
+    bottom: 22px;
+    left: 30px;
+}
+/*客服*/
+.indexKefu {
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	bottom: 300px!important;
+	right: 30px!important;
+}
+.indexKefu img {
+	width: 100%;
+	height: 100%;
+}

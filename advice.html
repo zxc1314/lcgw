@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>进言献策</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/serviceHall.css">
+</head>
+<body>
+	<!-- 顶部面包屑导航 -->
+	<div class="current usCurrent">
+		<div class="left location">
+			<span>当前位置 > <a href="###">服务大厅</a> > </span><span class="currentLocation"><a href="###">联系我们</a></span>	
+		</div>
+		<div class="right time">
+			<span>现在时间：</span><span class="datetime" id="datetime">日期</span>
+		</div>
+	</div>
+	<!-- 精选留言 -->
+	<div class="advice_title">
+		<h3>精选留言</h3>
+	</div>
+	<div class="advice">
+		<!-- 留言信息 -->
+		<div class="advice_content">
+			<p>	
+				<img src="images/advice_3.png" alt="dian">
+				<span class="titleAdvice">留言 : </span>
+				<span class="mainAdvice">希望栾川发展越来越好</span>
+				<span>2013-05-07</span>
+			</p>
+			<p>
+				<img src="images/advice_3.png" alt="dian">
+				<span class="titleAdvice">回复 : </span>
+				<span class="mainAdvice">希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好</span>
+				<span>2013-05-07</span>
+			</p>
+		</div>
+		<div class="advice_content">
+			<p>	
+				<img src="images/advice_3.png" alt="dian">
+				<span class="titleAdvice">留言 : </span>
+				<span class="mainAdvice">希望栾川发展越来越好</span>
+				<span>2013-05-07</span>
+			</p>
+			<p>
+				<img src="images/advice_3.png" alt="dian">
+				<span class="titleAdvice">回复 : </span>
+				<span class="mainAdvice">希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好</span>
+				<span>2013-05-07</span>
+			</p>
+		</div>
+		<div class="advice_content">
+			<p>	
+				<img src="images/advice_3.png" alt="dian">
+				<span class="titleAdvice">留言 : </span>
+				<span class="mainAdvice">希望栾川发展越来越好</span>
+				<span>2013-05-07</span>
+			</p>
+			<p>
+				<img src="images/advice_3.png" alt="dian">
+				<span class="titleAdvice">回复 : </span>
+				<span class="mainAdvice">希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好希望栾川发展越来越好</span>
+				<span>2013-05-07</span>
+			</p>
+		</div>
+	</div>
+	<!-- 我要留言按钮 -->
+	<div class="leavingMessage">
+		<button id="open">我要留言</button>
+	</div>
+	<!-- 我要留言弹窗 -->
+	<div class="popup" id="popup">
+		<div class="msgPopup">
+			<!-- 弹窗标题 -->
+			<div class="popup_title">
+				<h3>我要留言<img id="close" src="images/popup_close.png" alt="关闭"></h3>
+			</div>
+			<!-- 弹窗内容 -->
+			<div class="popup_content">
+				<form>
+					<p>留言内容(意见与建议):</p>
+					<p class="textarea"><textarea id="popup_advice"></textarea></p>
+					<p>请留下您的联系方式,以便我们联系:</p>
+					<p class="contact">
+						<label>QQ : </label><input type="text" name="QQ" id="popup_QQ">
+						<label>邮箱 : </label><input type="text" name="email" id="popup_email">
+						<label>手机 : </label><input type="text" name="tel" id="popup_tel">
+					</p>
+					<p><input id="submission" type="button" value="提交"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script src="js/navDate.js"></script>
+
+<script type="text/javascript">
+	//监听滚动条变化隐藏/显示我要留言按钮
+		$("#open").hide();
+         window.onscroll= function(){
+                //变量t是滚动条滚动时，距离顶部的距离
+                var t = document.documentElement.scrollTop||document.body.scrollTop;
+                var open = document.getElementById('open');
+                //当滚动到距离顶部200px时，返回顶部的锚点显示
+                if(t>=200){
+                    open.style.display="block";
+                }else{          //恢复正常
+                    open.style.display="none";
+                }
+            }
+</script>
+<script type="text/javascript">
+$(function() {
+	// 弹窗开启关闭
+	$("#open").on("click",function(){
+		$("#popup").show(400);
+	})
+	$("#close").on("click",function(){
+		$("#popup").hide(400);
+	})
+	//弹窗内容提交验证
+	$("#submission").on("click",function(){
+		var popup_advice = $("#popup_advice").val();
+		var popup_QQ = $("#popup_QQ").val();
+		var popup_email = $("#popup_email").val();
+		var popup_tel = $("#popup_tel").val();
+		var QQReg = RegExp(/^[1-9][0-9]{4,9}$/);
+		var myreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+		var PhoneReg = /^1[0-9]{10}$/;  
+		 if (!popup_advice) {
+			alert("请输入留言内容");
+			$("#popup_advice").focus();
+			return;
+		}
+		 if (popup_QQ ==''&& popup_email ==''&& popup_tel =='') {
+			alert("请输入联系方式");
+			$("#popup_QQ").focus();
+			return;
+		}
+		 if (popup_QQ) {
+			if (!QQReg.test(popup_QQ)) {
+		 	alert("请输入正确QQ号码");
+		 	$("#popup_QQ").focus();
+		 	return;
+		 }
+		}
+		 if (popup_email) {
+		 	if (!myreg.test(popup_email)) {
+		 	alert("请输入正确的邮箱");
+		 	$("#popup_email").focus();
+		 	return;
+		 }
+		}
+		 if (popup_tel) {
+			if (!PhoneReg.test(popup_tel)) {
+		 	alert("请输入正确的手机号码")
+		 	$("#popup_tel").focus();
+		 	return;
+		 }
+		}
+		alert("提交成功,感谢您的留言!");
+		 	$("#popup").hide(400);//隐藏弹窗
+		 	location.reload();//刷新页面
+	})
+})
+</script>
+</html>

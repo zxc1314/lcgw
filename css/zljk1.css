@@ -1,0 +1,47 @@
+.box {
+	width: 1000px;
+    margin: 0 auto;
+}
+.center{
+	width: 1000px;
+	margin: 0px;	
+	padding: 0px;
+}
+.top{
+	height:40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.top h3{
+	font-size: 20px;
+	color:#000000; 
+	line-height: 40px;
+    font-weight:bold;
+}
+.text{
+	width: 1000px;
+    padding: 16px  0px;
+}
+ p{
+	font-size: 15px;
+	line-height: 25px;
+    font-family: "黑体";
+    text-indent: 2em ;
+}
+.mp4{
+	margin: 25px auto;
+}
+
+
+.text img.one{
+	width: 535px;
+	height: 345px;
+	margin: 20px 237px;	
+}
+
+.text img.two{
+	width: 370px;
+	height: 220px;
+    margin: 20px 315px;
+}
+
